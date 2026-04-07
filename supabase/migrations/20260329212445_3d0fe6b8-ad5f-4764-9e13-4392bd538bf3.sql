@@ -1,0 +1,3 @@
+UPDATE products 
+SET description = '<p>Stylish premium denim jacket with modern fit and comfortable wear.</p><p><img src="https://images.pexels.com/photos/15317855/pexels-photo-15317855.jpeg" alt="Denim Jacket" style="max-width:100%"></p><p><iframe width="560" height="315" src="https://www.youtube.com/embed/gEwM3VWAvBc" frameborder="0" allowfullscreen></iframe></p>'
+WHERE id = '22315754-f7f9-4895-ab37-624e8572a6a8'

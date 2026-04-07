@@ -1,0 +1,2 @@
+DROP POLICY "Authenticated users can manage goals" ON public.monthly_goals;
+CREATE POLICY "Admins can manage goals" ON public.monthly_goals FOR ALL TO authenticated USING (has_admin_role(auth.uid())) WITH CHECK (has_admin_role(auth.uid()));
